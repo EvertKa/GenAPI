@@ -17,12 +17,30 @@ body {
 }
 
 
-.table {
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-    padding: .5rem 1rem;
-    border: 2px solid black;
+table, tr, td {
+    border: 2px solid darkblue;
+}
 
+th {
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+}
+
+td, th {
+    padding: 8px 16px;
+}
+
+.coin-image {
+    height: 24px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.text-right {
+    text-align: right;
 }
